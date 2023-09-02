@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="password">
+            <input type="number" id="length" placeholder="Length" class="animated-input">
+            
+            <input placeholder="Your Password" type="text" id="password" readonly class="animated-input">
+            <!-- <button id="generate" class="animated-button">Generate</button> -->
+            <button id="generate" class="btn-17">
+        <span class="text-container">
+          <span class="text">Generate</span>
+        </span>
+      </button>
+            <p id="strength" class="strength weak"></p>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+</body>
+</html>
